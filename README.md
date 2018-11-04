@@ -1,5 +1,3 @@
-# Data-Visualisation-with-R
-
 
 
 # Data Visualisation with R
@@ -155,12 +153,15 @@ R comes equipped with a  `plot()` function that is a kind of generic function fo
 We get a dot plot here wherin each dot represents the value of the **Ozone** in **mean parts per billion**.
 
 * Plotting a graph between the Ozone and Wind values.
+*
 ` > plot(airquality$Ozone, airquality$Wind)`
 
-
 ![](https://github.com/parulnith/Data-Visualisation-with-R/blob/master/Ozone%20vs%20Wind.png)
+
 The plot shows that wind and Ozone values have a somewhat negative correlation.
 
+
 * Let us now see what happens when we use plot command the with the entire dataset without selecting any columns.
-`>plot(airquality)`
+* 
+`> plot(airquality)`
 ![](https://github.com/parulnith/Data-Visualisation-with-R/blob/master/All%20variables.png)
